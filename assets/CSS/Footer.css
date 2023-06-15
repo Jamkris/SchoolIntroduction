@@ -275,6 +275,7 @@
         input[type="email"],
         select {
             height: 3em;
+            margin-top: 10px;
         }
     
         textarea {
@@ -360,5 +361,81 @@
         input[type="radio"] + label:before {
             border-radius: 100%;
         }
-    
         
+        
+#Sendh2, #Bottom_Follow {
+    margin-top: 20px;
+}
+
+#Bottom_Follow {
+    margin-left: 40px;
+}
+
+#EmailSend {
+    border: none;
+    background-color: none;
+    text-decoration: none;
+}
+
+#icons {
+    list-style:none;
+
+}
+
+.actions {
+    list-style: none;
+    padding: 0;
+}
+
+.actions>li {
+    list-style: none;
+    text-align: left;
+}
+
+#EmailSend {
+    border: 0;
+	background-color: #585858;
+	color: #fff;
+	font-size: 3vh;
+	padding: 10px 25px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#EmailSend:hover {
+	background-color: #F2849E;
+	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+#EmailSend:not(:hover) {
+	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+
+}
+
+.icon {
+    text-decoration: none;
+    float: left;
+}
+
+.icon>a:hover {
+    color: #F2849E;
+    border: solid #F2849E 1px;
+	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.icon>a:not(:hover) {
+	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+
+}
+
+.icon>a {
+    margin-top: 15px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 10px;
+    border: #000 solid 1px;
+    margin-right: 4vh;
+    margin-left: 10px;
+    padding: 10px;
+}
+

@@ -4743,3 +4743,8 @@ textarea.form-control-lg {
     border-bottom-left-radius: 0;
   }
 }
+
+#NavIMG {
+  width: 120%;
+  margin-bottom: 10px;
+}
