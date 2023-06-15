@@ -3689,6 +3689,10 @@ textarea.form-control-lg {
   background-color: var(--bs-nav-pills-link-active-bg);
 }
 
+.nav-item {
+  margin-right: 10%;
+}
+
 .nav-fill > .nav-link,
 .nav-fill .nav-item {
   flex: 1 1 auto;
@@ -3801,7 +3805,7 @@ textarea.form-control-lg {
 
 .navbar-collapse {
   flex-basis: 100%;
-  flex-grow: 1;
+  margin-right: 10%;
   align-items: center;
 }
 
