@@ -18,6 +18,8 @@
         -webkit-flex-direction: row;
         -ms-flex-direction: row;
         flex-direction: row;
+        padding-left: 4%;
+        padding-top: 1%;
         }
         
     

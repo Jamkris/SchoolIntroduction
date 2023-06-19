@@ -1,0 +1,73 @@
+#Main_Header {
+    display: flex;
+}
+
+#School_principal h1 {
+    display: block;
+    text-align: center;
+}
+
+#School_principal {
+    margin-right: 5%;
+}
+
+#School_principal ul li {
+    width: 20vh;
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 3px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+#School_principal ul li a {
+    text-decoration: none;
+}
+
+#School_principal_Body {
+    padding: 3% 2% 8% 2%;
+    border: 2px solid black;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+
+#School_principal_Body img {
+    float: left;
+    margin-bottom: 20%;
+    margin-right: 5%;
+    width: 15%;
+}
+
+
+@media screen and (max-width: 764px) {
+    .navbar-brand > #NavIMG {
+        width: 100%;
+    }
+
+    #fields {
+        width: 100%;
+    }
+
+    .inner {
+        padding: 0;
+        margin: 0;
+    }
+
+    .inner > section {
+        padding: 0;
+    }
+
+    .inner > section {
+        margin-top: 5%; 
+    }
+
+    #Bottom_Follow {
+        margin: 0;
+        padding: 0;
+    }
+
+    .icon {
+        margin: 1%;
+    }
+}
